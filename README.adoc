@@ -7,6 +7,8 @@ This workshop is a walkthrough of deploying standard CLI and tools for using AWS
 * You already have an AWS account with typical permissions to create EC2 resources, EKS clusters, etc
 
 == Setup AWS CLI
+. General instructions - link:https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html[aws cli v2 docs]
+
 . Download and Install AWS CLI v2. 
 +
 ----
@@ -31,6 +33,8 @@ Default output format [None]: json
 ----
 
 == Setup Amazon EKS CLI - eksctl
+. General instructions - link:https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html[eksctl docs]
+
 . If using a Mac, we are assuming you have homebrew installed, otherwise please install it now
 +
 ----
@@ -55,7 +59,10 @@ $ eksctl version
 0.25.0
 ----
 
+
 == Setup kubectl
+. General instructions - link:https://kubernetes.io/docs/tasks/tools/install-kubectl[kubectl docs]
+
 . Download and Install kubectl
 +
 ----
